@@ -1,0 +1,109 @@
+* {
+	border: 0px solid red;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+body {
+	margin: 3rem;
+	padding: 0;
+	font-size: 1rem;
+}
+img, h1, h3 {
+	display: block;
+	margin: 0;
+}
+/* Блок #1 (Логотип и название фирмы) */
+.page__name {
+	margin-top: 3.75rem;
+	margin-left: 3.75rem;
+	float: left;
+	width: 43.75rem;
+}
+.page__name h3 {
+	font-size: 1.5rem;
+	margin-top: 10px;
+	text-align: center;
+}
+.page__name h1 {
+	font-size: 2.8125rem;
+	margin-top: 10px;
+	text-align: center;
+}
+.logo {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+/* Блок #2 (EDUCATION)*/
+.page__education {
+	float: right;
+	width: 62.625rem;
+}
+.page__education img {
+	margin-bottom: 90px;
+}
+.page__education ul {
+	margin: 0;
+	padding: 0;
+}
+.page__education li {
+	list-style-image: url("images/circle.png");
+}
+.page__education h1 {
+	font-size: 2.625rem;
+	margin-bottom: 8px;
+}
+.page__education p {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+/* Блок #3 (Profile) */
+.page__profile {
+	float: left;
+	width: 40.625rem;
+	margin-top: -200px;
+}
+.page__profile p {
+	font-weight: bold;
+	font-size: 1.25rem;
+	padding-left: 3.125rem;
+}
+
+/* Блок #4 (Experience) */
+.page__experience {
+	float: right;
+	width: 62.625rem;
+}
+.page__experience img {
+	margin-bottom: 90px;
+}
+.page__experience ul {
+	margin: 0;
+	padding: 0;
+}
+.page__experience h1 {
+	font-size: 1.5rem;
+	margin-bottom: 8px;
+}
+
+/* Блок #5 (Contact) */
+.page__contact {
+	float: left;
+	width: 34.375rem;
+	margin-top: -270px;
+}
+.page__contact ul {
+	padding: 0;
+}
+.page__contact li {
+	list-style: none;
+}
+.page__contact h1, p {
+	display: inline;
+}
